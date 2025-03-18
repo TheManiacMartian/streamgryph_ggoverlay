@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Moderniz';
+    src: url('../fonts/Moderniz.woff') format('woff');
+}
+
+.t1-name{
+    color:white;
+    font-family: Moderniz;
+}
+
+.bg-overlay{
+    background-image: url(../images/bg/normalbg.png);
+    height: 1080px;
+    width: 1920px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bg-game-mr{
+
+    background-image: url(../images/bg/Marvel\ Rivals.png);
+
+    height: 1080px;
+    width: 1920px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-game-val{
+
+    background-image: url(../images/bg/Valorant.png);
+
+    height: 1080px;
+    width: 1920px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-game-ow{
+
+    background-image: url(../images/bg/Overwatch.png);
+
+    height: 1080px;
+    width: 1920px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

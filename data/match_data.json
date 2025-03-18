@@ -1,0 +1,42 @@
+{
+    "team1Name": "Guelph Gryphons",
+    "team2Name": "Waterloo Warriors",
+    "score1": 40,
+    "score2": 0,
+    "game": "Marvel Rivals",
+    "mapPick": [],
+    "banPick": [],
+    "team1": [
+        {
+            "name": "Gamer",
+            "character": "Hulk",
+            "role": "Vangaurd"
+        },
+        {
+            "name": "Gamie",
+            "character": "Hulk",
+            "role": "Vangaurd"
+        },
+        {
+            "name": "Hello",
+            "character": "Hulk",
+            "role": "Vangaurd"
+        },
+        {
+            "name": "Doesnt",
+            "character": "Hulk",
+            "role": "Vangaurd"
+        },
+        {
+            "name": "Matter",
+            "character": "Hulk",
+            "role": "Vangaurd"
+        },
+        {
+            "name": "Hi",
+            "character": "Hulk",
+            "role": "Vangaurd"
+        }
+    ],
+    "team2": []
+}

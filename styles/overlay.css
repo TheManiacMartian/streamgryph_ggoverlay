@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Moderniz';
+    src: url('../fonts/Moderniz.woff') format('woff');
+}
+
+
+.team1-holder
+{
+    position: absolute;
+
+    display: flex;
+    flex-direction: row;
+    height: 75px;
+    width: 500px;
+    margin: 20px;
+    justify-content: center;
+    background-color: black;
+
+    border-bottom: 15px;
+    border-color: white;
+
+
+}
+
+.team2-holder
+{
+    position: absolute;
+
+    display: flex;
+    flex-direction: row;
+    height: 75px;
+    width: 500px;
+    margin: 20px;
+    right: 0px;
+    justify-content: center;
+    background-color: black;
+
+    border-bottom: 15px;
+    border-color: white;
+
+
+}
+
+.versus
+{
+    font-size: 125px;
+    font-family: Moderniz;
+    color: white;
+
+}
+
+.score-holder
+{
+    height: 100%;
+    background-color: white;
+
+}
+
+.score
+{
+    position: relative;
+    bottom: 25px;
+    font-size: 40px;
+    font-family: Moderniz;
+    color: black;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.name-holder
+{
+    height: 100%;
+    width: 500px;
+}
+
+.team-name
+{
+    position: relative;
+    text-align: center;
+    top: 15px;
+    font-size: 17px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: Moderniz;
+    color: white;
+    height: 100%;
+
+}
+
+.team-logo
+{
+    width: 75px;
+    height: 75px;
+    position: relative;
+
+}
