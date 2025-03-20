@@ -54,9 +54,11 @@
 .team-holder{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    overflow-x: hidden;
 
     position: absolute;
-    width: 100%;
+    width: 75%;
     height: 100%;
 }
 

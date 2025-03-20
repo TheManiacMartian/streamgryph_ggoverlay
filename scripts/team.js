@@ -17,11 +17,59 @@ function init()
     async function main()
     {
         getJSON("data/match_data.json").then(data => {
+            // Select the team-holder div
+            const teamHolder = document.querySelector(".team-holder");
+            const existingPlayers = teamHolder.children.length;
+            let img, playerName;
+        
+            // Remove excess players if there are more than needed
+            while (teamHolder.children.length > data.team1.length) {
+                teamHolder.removeChild(teamHolder.lastChild);
+            }
+
             for(let i = 0; i < data.team1.length; i++)
             {
+                let img, playerName, charHolder, nameHolder, playerHolder;
 
-                document.getElementById(`p${i+1}-name`).textContent=data.team1[i].name;
-                document.getElementById(`p${i+1}-char`).src=`images/${data.game}/${data.team1[i].character}.png`;
+                // Only add player if we need more
+                if (i >= existingPlayers){
+                    // Create holder divs
+                    playerHolder = document.createElement("div");
+                    charHolder = document.createElement("div");
+                    nameHolder = document.createElement("div");
+                    playerHolder.classList.add("player-holder");
+                    charHolder.classList.add("char-holder");
+                    nameHolder.classList.add("name-holder");
+
+                    // Create image element
+                    img = document.createElement("img");
+                    img.classList.add("p-char");
+                    img.id = `p${i+1}-char`;
+                    img.src = `images/${data.game}/${data.team1[i].character}.png`;
+
+                    // Create player name paragraph
+                    playerName = document.createElement("p");
+                    playerName.classList.add("p-name");
+                    playerName.id = `p${i+1}-name`;
+                    playerName.textContent = data.team1[i].name;
+
+                    // Append to holders
+                    charHolder.appendChild(img);
+                    nameHolder.appendChild(playerName);
+                    playerHolder.appendChild(charHolder);
+                    playerHolder.appendChild(nameHolder);
+                    teamHolder.appendChild(playerHolder);   
+                }
+                else{
+                    // If not set the correct elements
+
+                    playerHolder = teamHolder.children[i];
+                    img = playerHolder.querySelector(".p-char");
+                    playerName = playerHolder.querySelector(".p-name");
+                }
+
+                playerName.textContent = data.team1[i].name;
+                img.src = `images/${data.game}/${data.team1[i].character}.png`;
                 
                 if(team1Chars[i] != data.team1[i].character)
                 {
@@ -34,8 +82,6 @@ function init()
                         }
                     )
                 }
-
-                
 
                 team1Chars[i] = data.team1[i].character;
             }
