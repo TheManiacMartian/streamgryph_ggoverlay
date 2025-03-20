@@ -1,6 +1,6 @@
 {
-    "current_scene": "In Game",
-    "current_program_scene": "In Game",
+    "current_scene": "Team",
+    "current_program_scene": "Team",
     "scene_order": [
         {
             "name": "Starting Soon"
@@ -10,9 +10,6 @@
         },
         {
             "name": "Team"
-        },
-        {
-            "name": "Team - Bans"
         },
         {
             "name": "In Game"
@@ -591,49 +588,14 @@
     "sources": [
         {
             "prev_ver": 503447555,
-            "name": "BANS",
-            "uuid": "dcdf6c32-844a-49de-a524-1b561cffe8d0",
-            "id": "browser_source",
-            "versioned_id": "browser_source",
-            "settings": {
-                "is_local_file": true,
-                "local_file": "C:/Users/mania/Documents/Gryphon ESports/Stream Overlays/streamgryph_ggoverlay/bans.html",
-                "width": 1920,
-                "height": 500
-            },
-            "mixers": 255,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.unmute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "ObsBrowser.Refresh": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 503447555,
             "name": "BG",
             "uuid": "16d35d53-355a-4188-bfb9-d5d008664583",
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
                 "is_local_file": true,
+                "local_file": "C:/Users/mania/Documents/Gryphon ESports/Stream Overlays/MR_Overlay/bg.html",
                 "undo_uuid": "16d35d53-355a-4188-bfb9-d5d008664583",
-                "local_file": "C:/Users/mania/Documents/Gryphon ESports/Stream Overlays/streamgryph_ggoverlay/bg.html",
                 "width": 1920,
                 "height": 1080,
                 "restart_when_active": false
@@ -698,24 +660,24 @@
             "settings": {
                 "playlist": [
                     {
+                        "value": "C:/Users/mania/Documents/Gryphon ESports/Stream Overlays/MR_Overlay/sounds/12. Mere Notilde - Drastic Love.wav",
                         "selected": false,
-                        "hidden": false,
-                        "value": "C:/Users/mania/Documents/Gryphon ESports/Stream Overlays/streamgryph_ggoverlay/sounds/12. Mere Notilde - Drastic Love.wav"
+                        "hidden": false
                     },
                     {
+                        "value": "C:/Users/mania/Documents/Gryphon ESports/Stream Overlays/MR_Overlay/sounds/18. TANUKI - Shimmer City.wav",
                         "selected": false,
-                        "hidden": false,
-                        "value": "C:/Users/mania/Documents/Gryphon ESports/Stream Overlays/streamgryph_ggoverlay/sounds/18. TANUKI - Shimmer City.wav"
+                        "hidden": false
                     },
                     {
+                        "value": "C:/Users/mania/Documents/Gryphon ESports/Stream Overlays/MR_Overlay/sounds/20. ev.exi - no time.wav",
                         "selected": false,
-                        "hidden": false,
-                        "value": "C:/Users/mania/Documents/Gryphon ESports/Stream Overlays/streamgryph_ggoverlay/sounds/20. ev.exi - no time.wav"
+                        "hidden": false
                     },
                     {
+                        "value": "C:/Users/mania/Documents/Gryphon ESports/Stream Overlays/MR_Overlay/sounds/27. Synthion - Xylitol.wav",
                         "selected": false,
-                        "hidden": false,
-                        "value": "C:/Users/mania/Documents/Gryphon ESports/Stream Overlays/streamgryph_ggoverlay/sounds/27. Synthion - Xylitol.wav"
+                        "hidden": false
                     }
                 ],
                 "shuffle": true
@@ -754,9 +716,9 @@
             "id": "ffmpeg_source",
             "versioned_id": "ffmpeg_source",
             "settings": {
+                "local_file": "C:/Users/mania/Documents/Gryphon ESports/Stream Overlays/MR_Overlay/video/4K FREE Dirt vintage film dust scratches damage 35mm footage overlay after effects premiere HD 2160p.mp4",
                 "hw_decode": true,
                 "close_when_inactive": true,
-                "local_file": "C:/Users/mania/Documents/Gryphon ESports/Stream Overlays/streamgryph_ggoverlay/video/4K FREE Dirt vintage film dust scratches damage 35mm footage overlay after effects premiere HD 2160p.mp4",
                 "looping": true,
                 "restart_on_activate": true
             },
@@ -921,48 +883,9 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 6,
+                "id_counter": 4,
                 "custom_size": false,
                 "items": [
-                    {
-                        "name": "placeholder_ss.webp",
-                        "source_uuid": "108dc2fe-8811-40bd-9e3a-8013885f1fde",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 2,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 5,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
                     {
                         "name": "MIC",
                         "source_uuid": "feebda75-a491-4b75-ad81-7b63a45aa131",
@@ -1079,45 +1002,6 @@
                             "duration": 0
                         },
                         "private_settings": {}
-                    },
-                    {
-                        "name": "BANS",
-                        "source_uuid": "dcdf6c32-844a-49de-a524-1b561cffe8d0",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": -15.0,
-                            "y": 103.0
-                        },
-                        "scale": {
-                            "x": 0.32343751192092896,
-                            "y": 0.32400000095367432
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 6,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
                     }
                 ]
             },
@@ -1134,16 +1018,12 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.4": [],
-                "libobs.hide_scene_item.4": [],
                 "libobs.show_scene_item.3": [],
                 "libobs.hide_scene_item.3": [],
                 "libobs.show_scene_item.1": [],
                 "libobs.hide_scene_item.1": [],
-                "libobs.show_scene_item.5": [],
-                "libobs.hide_scene_item.5": [],
-                "libobs.show_scene_item.6": [],
-                "libobs.hide_scene_item.6": []
+                "libobs.show_scene_item.4": [],
+                "libobs.hide_scene_item.4": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -1603,7 +1483,7 @@
             "versioned_id": "browser_source",
             "settings": {
                 "is_local_file": true,
-                "local_file": "C:/Users/mania/Documents/Gryphon ESports/Stream Overlays/streamgryph_ggoverlay/overlay.html",
+                "local_file": "C:/Users/mania/Documents/Gryphon ESports/Stream Overlays/MR_Overlay/overlay.html",
                 "width": 1920,
                 "height": 1080,
                 "shutdown": true,
@@ -1627,32 +1507,6 @@
                 "libobs.push-to-talk": [],
                 "ObsBrowser.Refresh": []
             },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 503447555,
-            "name": "placeholder_ss.webp",
-            "uuid": "108dc2fe-8811-40bd-9e3a-8013885f1fde",
-            "id": "image_source",
-            "versioned_id": "image_source",
-            "settings": {
-                "file": "C:/Users/mania/Documents/Gryphon ESports/Stream Overlays/streamgryph_ggoverlay/images/bg/placeholder_ss.webp"
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
@@ -2169,8 +2023,8 @@
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 581.0,
-                            "y": 408.0
+                            "x": 513.0,
+                            "y": 345.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -2181,8 +2035,8 @@
                         "bounds_align": 0,
                         "bounds_crop": false,
                         "bounds": {
-                            "x": 1805.0,
-                            "y": 994.0
+                            "x": 1920.0,
+                            "y": 1080.0
                         },
                         "crop_left": 0,
                         "crop_top": 0,
@@ -2251,12 +2105,12 @@
                         "locked": true,
                         "rot": 0.0,
                         "pos": {
-                            "x": 551.0,
-                            "y": 104.0
+                            "x": 385.0,
+                            "y": 74.0
                         },
                         "scale": {
-                            "x": 0.71302086114883423,
-                            "y": 0.71296298503875732
+                            "x": 0.87291663885116577,
+                            "y": 0.87314814329147339
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -2287,7 +2141,7 @@
                         "name": "BG MUSIC",
                         "source_uuid": "b6b507bd-21ac-40a7-8c57-1db18ffa3eac",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "pos": {
                             "x": 0.0,
@@ -2404,7 +2258,7 @@
             "versioned_id": "browser_source",
             "settings": {
                 "is_local_file": true,
-                "local_file": "C:/Users/mania/Documents/Gryphon ESports/Stream Overlays/streamgryph_ggoverlay/team.html",
+                "local_file": "C:/Users/mania/Documents/Gryphon ESports/Stream Overlays/MR_Overlay/team.html",
                 "width": 1920,
                 "height": 1080,
                 "restart_when_active": false
@@ -2434,375 +2288,12 @@
         },
         {
             "prev_ver": 503447555,
-            "name": "Team - Bans",
-            "uuid": "f6d7a168-7a29-4904-b29c-e34f0c16658b",
-            "id": "scene",
-            "versioned_id": "scene",
-            "settings": {
-                "id_counter": 8,
-                "custom_size": false,
-                "items": [
-                    {
-                        "name": "BG",
-                        "source_uuid": "16d35d53-355a-4188-bfb9-d5d008664583",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 2,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 1,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Dirt",
-                        "source_uuid": "2431eee4-7946-4d71-a81d-05771c3f5194",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 2,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 2,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "TEAM",
-                        "source_uuid": "27b03872-2ed4-4060-99dd-28d71726f2eb",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 566.0,
-                            "y": 407.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 2,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 1805.0,
-                            "y": 994.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 3,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "id": "fade_transition",
-                            "versioned_id": "fade_transition",
-                            "name": "TEAM Show Transition",
-                            "transition": {},
-                            "duration": 500
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Getting Ready",
-                        "source_uuid": "c4ec45b3-95b4-47ee-9f41-cd2e1af201a5",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 676.0,
-                            "y": 967.0
-                        },
-                        "scale": {
-                            "x": 0.44211408495903015,
-                            "y": 0.44140625
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 4,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "VERSUS",
-                        "source_uuid": "3c744b6a-06dc-46b2-b6a4-923673173623",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 548.0,
-                            "y": 49.0
-                        },
-                        "scale": {
-                            "x": 0.68281251192092896,
-                            "y": 0.68240737915039062
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 5,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "BG MUSIC",
-                        "source_uuid": "b6b507bd-21ac-40a7-8c57-1db18ffa3eac",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 6,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "MIC",
-                        "source_uuid": "feebda75-a491-4b75-ad81-7b63a45aa131",
-                        "visible": false,
-                        "locked": false,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 7,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "BANS",
-                        "source_uuid": "dcdf6c32-844a-49de-a524-1b561cffe8d0",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "pos": {
-                            "x": 937.0,
-                            "y": 252.0
-                        },
-                        "scale": {
-                            "x": 0.46822917461395264,
-                            "y": 0.46799999475479126
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 8,
-                        "group_item_backup": false,
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.1": [],
-                "libobs.hide_scene_item.1": [],
-                "libobs.show_scene_item.2": [],
-                "libobs.hide_scene_item.2": [],
-                "libobs.show_scene_item.3": [],
-                "libobs.hide_scene_item.3": [],
-                "libobs.show_scene_item.4": [],
-                "libobs.hide_scene_item.4": [],
-                "libobs.show_scene_item.5": [],
-                "libobs.hide_scene_item.5": [],
-                "libobs.show_scene_item.6": [],
-                "libobs.hide_scene_item.6": [],
-                "libobs.show_scene_item.7": [],
-                "libobs.hide_scene_item.7": [],
-                "libobs.show_scene_item.8": [],
-                "libobs.hide_scene_item.8": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 503447555,
             "name": "TitleBG",
             "uuid": "a38c04f2-3ae7-4cea-abc0-930c69de8626",
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "C:/Users/mania/Documents/Gryphon ESports/Stream Overlays/streamgryph_ggoverlay/images/bg/TitleBG.png"
+                "file": "C:/Users/mania/Documents/Gryphon ESports/Stream Overlays/MR_Overlay/images/bg/TitleBG.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -2829,7 +2320,7 @@
             "versioned_id": "browser_source",
             "settings": {
                 "is_local_file": true,
-                "local_file": "C:/Users/mania/Documents/Gryphon ESports/Stream Overlays/streamgryph_ggoverlay/versus.html",
+                "local_file": "C:/Users/mania/Documents/Gryphon ESports/Stream Overlays/MR_Overlay/versus.html",
                 "width": 1920,
                 "height": 1080,
                 "shutdown": true,
