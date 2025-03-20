@@ -1,41 +1,51 @@
 {
     "team1Name": "Guelph Gryphons",
-    "team2Name": "Waterloo Warriors",
-    "score1": 40,
+    "team2Name": "St. Clair Saints",
+    "score1": 0,
     "score2": 0,
     "game": "Marvel Rivals",
     "mapPick": [],
-    "banPick": [],
+    "banPick": [
+        "Hulk",
+        "Groot",
+        "Winter Soldier",
+        "Luna Snow"
+    ],
     "team1": [
         {
-            "name": "Gamer",
-            "character": "Hulk",
+            "name": "Moustache",
+            "character": "Captain America",
             "role": "Vangaurd"
         },
         {
-            "name": "Gamie",
-            "character": "Hulk",
+            "name": "Martian",
+            "character": "Venom",
             "role": "Vangaurd"
         },
         {
-            "name": "Hello",
-            "character": "Hulk",
-            "role": "Vangaurd"
+            "name": "SinLee",
+            "character": "Spider-Man",
+            "role": "Duelist"
         },
         {
-            "name": "Doesnt",
-            "character": "Hulk",
-            "role": "Vangaurd"
+            "name": "ItsMintz",
+            "character": "Storm",
+            "role": "Duelist"
         },
         {
-            "name": "Matter",
-            "character": "Hulk",
-            "role": "Vangaurd"
+            "name": "Thrx",
+            "character": "Mantis",
+            "role": "Strategist"
         },
         {
-            "name": "Hi",
-            "character": "Hulk",
-            "role": "Vangaurd"
+            "name": "Jammin",
+            "character": "Adam Warlock",
+            "role": "Strategist"
+        },
+        {
+            "name": "",
+            "character": "unknown",
+            "role": "unknown"
         }
     ],
     "team2": []
