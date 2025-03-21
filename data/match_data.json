@@ -3,29 +3,14 @@
     "team2Name": "",
     "score1": 0,
     "score2": 0,
-    "game": "League of Legends",
+    "game": "Valorant",
     "mapPick": [],
     "banPick": [],
     "team1": [
         {
-            "name": "League Player",
-            "character": "Naafiri",
-            "role": "Mid"
-        },
-        {
-            "name": "League Player 2",
-            "character": "Akali",
-            "role": "Mid"
-        },
-        {
-            "name": "Loser 3",
-            "character": "Zilean",
-            "role": "Support"
-        },
-        {
-            "name": "Bad League 4",
-            "character": "Alistar",
-            "role": "Support"
+            "name": "",
+            "character": "Astra",
+            "role": "Controller"
         }
     ],
     "team2": []
