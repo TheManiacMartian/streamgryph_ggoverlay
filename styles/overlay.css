@@ -8,6 +8,8 @@
 {
     position: absolute;
 
+    left: 0px;
+
     display: flex;
     flex-direction: row;
     height: 75px;
@@ -27,12 +29,13 @@
 {
     position: absolute;
 
+    right: 0px;
+
     display: flex;
     flex-direction: row;
     height: 75px;
     width: 500px;
     margin: 20px;
-    right: 0px;
     justify-content: center;
     background-color: black;
 

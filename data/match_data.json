@@ -7,9 +7,9 @@
     "mapPick": [],
     "banPick": [
         "Hulk",
-        "Groot",
-        "Winter Soldier",
-        "Luna Snow"
+        "Captain America",
+        "Hulk",
+        "Cloak and Dagger"
     ],
     "team1": [
         {
@@ -19,12 +19,12 @@
         },
         {
             "name": "Martian",
-            "character": "Venom",
+            "character": "Magneto",
             "role": "Vangaurd"
         },
         {
             "name": "SinLee",
-            "character": "Spider-Man",
+            "character": "Winter Soldier",
             "role": "Duelist"
         },
         {
@@ -34,18 +34,13 @@
         },
         {
             "name": "Thrx",
-            "character": "Mantis",
+            "character": "Cloak and Dagger",
             "role": "Strategist"
         },
         {
             "name": "Jammin",
             "character": "Adam Warlock",
             "role": "Strategist"
-        },
-        {
-            "name": "",
-            "character": "unknown",
-            "role": "unknown"
         }
     ],
     "team2": []
