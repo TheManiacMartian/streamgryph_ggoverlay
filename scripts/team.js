@@ -23,7 +23,7 @@ function init()
             let img, playerName;
         
             // Remove excess players if there are more than needed
-            while (teamHolder.children.length > data.team1.length) {
+            while(teamHolder.children.length > data.team1.length) {
                 teamHolder.removeChild(teamHolder.lastChild);
             }
 
