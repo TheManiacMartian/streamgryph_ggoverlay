@@ -1,46 +1,31 @@
 {
-    "team1Name": "Guelph Gryphons",
-    "team2Name": "St. Clair Saints",
+    "team1Name": "",
+    "team2Name": "",
     "score1": 0,
     "score2": 0,
-    "game": "Marvel Rivals",
+    "game": "League of Legends",
     "mapPick": [],
-    "banPick": [
-        "Hulk",
-        "Groot",
-        "Winter Soldier",
-        "Luna Snow"
-    ],
+    "banPick": [],
     "team1": [
         {
-            "name": "Moustache",
-            "character": "Captain America",
-            "role": "Vangaurd"
+            "name": "League Player",
+            "character": "Naafiri",
+            "role": "Mid"
         },
         {
-            "name": "Martian",
-            "character": "Venom",
-            "role": "Vangaurd"
+            "name": "League Player 2",
+            "character": "Akali",
+            "role": "Mid"
         },
         {
-            "name": "SinLee",
-            "character": "Spider-Man",
-            "role": "Duelist"
+            "name": "Loser 3",
+            "character": "Zilean",
+            "role": "Support"
         },
         {
-            "name": "ItsMintz",
-            "character": "Storm",
-            "role": "Duelist"
-        },
-        {
-            "name": "Matter",
-            "character": "Hulk",
-            "role": "Vangaurd"
-        },
-        {
-            "name": "Hi",
-            "character": "Hulk",
-            "role": "Vangaurd"
+            "name": "Bad League 4",
+            "character": "Alistar",
+            "role": "Support"
         }
     ],
     "team2": []
