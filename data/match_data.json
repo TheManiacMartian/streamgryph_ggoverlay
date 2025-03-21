@@ -5,12 +5,42 @@
     "score2": 0,
     "game": "Valorant",
     "mapPick": [],
-    "banPick": [],
+    "banPick": [
+        "Hulk",
+        "Captain America",
+        "Hulk",
+        "Cloak and Dagger"
+    ],
     "team1": [
         {
-            "name": "",
-            "character": "Astra",
-            "role": "Controller"
+            "name": "Moustache",
+            "character": "Captain America",
+            "role": "Vangaurd"
+        },
+        {
+            "name": "Martian",
+            "character": "Magneto",
+            "role": "Vangaurd"
+        },
+        {
+            "name": "SinLee",
+            "character": "Winter Soldier",
+            "role": "Duelist"
+        },
+        {
+            "name": "ItsMintz",
+            "character": "Storm",
+            "role": "Duelist"
+        },
+        {
+            "name": "Thrx",
+            "character": "Cloak and Dagger",
+            "role": "Strategist"
+        },
+        {
+            "name": "Jammin",
+            "character": "Adam Warlock",
+            "role": "Strategist"
         }
     ],
     "team2": []
