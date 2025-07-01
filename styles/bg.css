@@ -54,3 +54,15 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.bg-game-lol{
+
+    background-image: url(../images/bg/League\ of\ Legends.png);
+
+    height: 1080px;
+    width: 1920px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

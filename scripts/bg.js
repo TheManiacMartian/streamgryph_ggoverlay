@@ -21,16 +21,25 @@ function init()
                     document.getElementById('gameBackground').classList.add('bg-game-val');
                     document.getElementById('gameBackground').classList.remove('bg-game-mr');
                     document.getElementById('gameBackground').classList.remove('bg-game-ow');
+                    document.getElementById('gameBackground').classList.remove('bg-game-lol');
                     break;
                 case "Overwatch":
                     document.getElementById('gameBackground').classList.remove('bg-game-val');
                     document.getElementById('gameBackground').classList.remove('bg-game-mr');
                     document.getElementById('gameBackground').classList.add('bg-game-ow');
+                    document.getElementById('gameBackground').classList.remove('bg-game-lol');
                     break;
                 case "Marvel Rivals":
                     document.getElementById('gameBackground').classList.remove('bg-game-val');
                     document.getElementById('gameBackground').classList.add('bg-game-mr');
                     document.getElementById('gameBackground').classList.remove('bg-game-ow');
+                    document.getElementById('gameBackground').classList.remove('bg-game-lol');
+                    break;
+                case "League of Legends":
+                    document.getElementById('gameBackground').classList.remove('bg-game-val');
+                    document.getElementById('gameBackground').classList.remove('bg-game-mr');
+                    document.getElementById('gameBackground').classList.remove('bg-game-ow');
+                    document.getElementById('gameBackground').classList.add('bg-game-lol');
                     break;
             }
 

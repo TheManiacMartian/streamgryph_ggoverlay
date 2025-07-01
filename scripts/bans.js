@@ -19,6 +19,7 @@ function init()
         getJSON("data/match_data.json").then(data => {
             for(let i = 0; i < data.banPick.length; i++)
             {
+                document.getElementById(`p${i+1}-char`).src=`images/NoChar.png`;
                 document.getElementById(`p${i+1}-char`).src=`images/${data.game}/${data.banPick[i]}.png`;
                 
                 if(bans[i] != data.banPick[i])
