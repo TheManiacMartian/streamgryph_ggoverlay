@@ -5,32 +5,17 @@
     "score2": 0,
     "game": "League of Legends",
     "mapPick": [],
-    "banPick": [],
+    "banPick": [
+        "Hulk",
+        "Captain America",
+        "Hulk",
+        "Cloak and Dagger"
+    ],
     "team1": [
         {
             "name": "",
-            "character": "unknown",
-            "role": "unknown"
-        },
-        {
-            "name": "",
-            "character": "Alistar",
-            "role": "Support"
-        },
-        {
-            "name": "",
-            "character": "unknown",
-            "role": "unknown"
-        },
-        {
-            "name": "",
-            "character": "unknown",
-            "role": "unknown"
-        },
-        {
-            "name": "",
-            "character": "unknown",
-            "role": "unknown"
+            "character": "Astra",
+            "role": "Controller"
         }
     ],
     "team2": [
