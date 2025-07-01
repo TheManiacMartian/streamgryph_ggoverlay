@@ -10,6 +10,18 @@ const getJSON = async url =>
 
 window.onload = init;
 
+function setImageIfExists(elementId, imagePath) {
+    const testImage = new Image();
+    testImage.onload = function () {
+        document.getElementById(elementId).src = imagePath;
+    };
+    testImage.onerror = function () {
+        console.warn(`Image not found: ${imagePath}`);
+        document.getElementById(elementId).src = 'images/Team/Unknown.png';
+    };
+    testImage.src = imagePath;
+}
+
 function init()
 {
     let teamLogos = [];
@@ -62,10 +74,10 @@ function init()
 
             document.getElementById('score1').textContent=data.score1;
             document.getElementById('team1Name').textContent=data.team1Name;
-            document.getElementById('team1Logo').src=`images/Team/${data.team1Name}.png`;
+            setImageIfExists('team1Logo', `images/Team/${data.team1Name}.png`);
             document.getElementById('score2').textContent=data.score2;
             document.getElementById('team2Name').textContent=data.team2Name;
-            document.getElementById('team2Logo').src=`images/Team/${data.team2Name}.png`;
+            setImageIfExists('team2Logo', `images/Team/${data.team2Name}.png`);
 
             teamLogos[0] = data.team1Name;
             teamLogos[1] = data.team2Name;
