@@ -5,12 +5,29 @@
     "score2": 0,
     "game": "League of Legends",
     "mapPick": [],
-    "banPick": [
-        "Akali",
-        "Kha'Zix",
-        "Ziggs",
-        "Annie"
+    "banPick": [],
+    "team1": [
+        {
+            "name": "Meow",
+            "character": "Akali",
+            "role": "Mid"
+        },
+        {
+            "name": "Woof",
+            "character": "Anivia",
+            "role": "Jungle"
+        }
     ],
-    "team1": [],
-    "team2": []
+    "team2": [
+        {
+            "name": "Moo",
+            "character": "Alistar",
+            "role": "Bot"
+        },
+        {
+            "name": "Oink",
+            "character": "Anivia",
+            "role": "Mid"
+        }
+    ]
 }

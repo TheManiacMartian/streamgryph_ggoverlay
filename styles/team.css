@@ -16,10 +16,10 @@
 
 .p-name{
     color:white;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
     font-family: Moderniz;
+    -webkit-animation: 1s ease-in-out infinite alternate;
+    -moz-animation: 1s ease-in-out infinite alternate;
+    animation: 1s ease-in-out infinite alternate;
     font-size: 1vw;
     text-align: center;
 }

@@ -49,7 +49,7 @@ function init()
                     role = document.createElement("img");
                     role.classList.add("role-image");
                     role.id = `role${i+1}-image`;
-                    role.src = `images/${data.game}/${data.team1[i].role}.png`;
+                    role.src = `images/${data.game}/${data.team2[i].role}.png`;
 
                     // Create player name paragraph
                     playerName = document.createElement("p");
