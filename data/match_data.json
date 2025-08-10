@@ -1,33 +1,11 @@
 {
-    "team1Name": "",
-    "team2Name": "",
+    "team1Name": "Guelph Gryphons",
+    "team2Name": "Woof",
     "score1": 0,
     "score2": 0,
-    "game": "League of Legends",
+    "game": "Valorant",
     "mapPick": [],
     "banPick": [],
-    "team1": [
-        {
-            "name": "Meow",
-            "character": "Akali",
-            "role": "Mid"
-        },
-        {
-            "name": "Woof",
-            "character": "Anivia",
-            "role": "Jungle"
-        }
-    ],
-    "team2": [
-        {
-            "name": "Moo",
-            "character": "Alistar",
-            "role": "Bot"
-        },
-        {
-            "name": "Oink",
-            "character": "Anivia",
-            "role": "Mid"
-        }
-    ]
+    "team1": [],
+    "team2": []
 }
