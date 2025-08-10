@@ -1,48 +1,11 @@
 {
-    "team1Name": "Gryphon Gooners",
-    "team2Name": "Losers",
+    "team1Name": "",
+    "team2Name": "",
     "score1": 0,
     "score2": 0,
-    "game": "League of Legends",
+    "game": "Valorant",
     "mapPick": [],
-    "banPick": [
-        "Hulk",
-        "Captain America",
-        "Hulk",
-        "Cloak and Dagger"
-    ],
-    "team1": [
-        {
-            "name": "",
-            "character": "Astra",
-            "role": "Controller"
-        }
-    ],
-    "team2": [
-        {
-            "name": "",
-            "character": "unknown",
-            "role": "unknown"
-        },
-        {
-            "name": "",
-            "character": "unknown",
-            "role": "unknown"
-        },
-        {
-            "name": "",
-            "character": "unknown",
-            "role": "unknown"
-        },
-        {
-            "name": "",
-            "character": "unknown",
-            "role": "unknown"
-        },
-        {
-            "name": "",
-            "character": "unknown",
-            "role": "unknown"
-        }
-    ]
+    "banPick": [],
+    "team1": [],
+    "team2": []
 }

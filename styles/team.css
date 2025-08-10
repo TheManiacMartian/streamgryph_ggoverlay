@@ -16,10 +16,10 @@
 
 .p-name{
     color:white;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
     font-family: Moderniz;
+    -webkit-animation: 1s ease-in-out infinite alternate;
+    -moz-animation: 1s ease-in-out infinite alternate;
+    animation: 1s ease-in-out infinite alternate;
     font-size: 1vw;
     text-align: center;
 }
@@ -44,7 +44,7 @@
 
 .p-char{
     position: relative;
-    bottom: 150px;
+    bottom: 200px;
     right: 900px;
     height: 1500px;
     width: 1500px;
@@ -62,12 +62,20 @@
     height: 100%;
 }
 
+.role-image {
+    margin-top: 25px;    
+    margin-bottom: 0px;  
+    width: 80%;            
+    height: auto;          
+    align-self: center;    
+    object-fit: contain;   
+}
+
 .player-holder{
     width: 150px;
-    height: 500px;
+    height: 650px;
     margin: 15px;
     padding: 25px;
-
     display: flex;
     flex-direction: column;
 

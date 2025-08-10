@@ -42,6 +42,16 @@
     color: white;
 }
 
+.team-name
+{
+    font-size: 75px;
+    padding-top: 75px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: Moderniz;
+    color: white;
+}
+
 .team-logo
 {
     width: 250px;

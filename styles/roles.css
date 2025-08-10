@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Moderniz';
+    src: url('../fonts/Moderniz.woff') format('woff');
+}
+
+.name-holder{
+    position: relative;
+    background: rgba(0,0,0, 0.7);
+    background: linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(14,14,57,0.7) 100%);
+    border-color: rgb(39, 39, 120);
+    height: 86px;
+    width: 500px;
+    right: -150px;
+    top: 400px;
+}
+
+.role-holder{
+    position: relative;
+    background: rgba(0,0,0, 0.7);
+    border-color: rgb(39, 39, 120);
+    height: 86px;
+    width: 100px;
+    right: -150px;
+    top: 400px;
+}
+
+.p-name{
+    color:white;
+    -webkit-animation: 1s ease-in-out infinite alternate;
+    -moz-animation: 1s ease-in-out infinite alternate;
+    animation: 1s ease-in-out infinite alternate;
+    font-family: Moderniz;
+    font-size: 1.25vw;
+    text-align: center;
+    padding-top: 5px;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e67b00, 0 0 40px #e69200, 0 0 50px #e69900, 0 0 60px #e67b00, 0 0 70px #e69900;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #f0e9cf, 0 0 40px #fcecc9, 0 0 50px #ffd1e8, 0 0 60px #e99651, 0 0 70px #ffaf4d, 0 0 80px #ffa94d;
+    }
+}
+
+.player-holder{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 86px;
+}
+
+.team-holder-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 25px;
+    padding-left: 450px;
+
+    position: relative;
+    width: 75%;
+    height: 100%;
+}
+
+.team-holder-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 25px;
+    padding-left: 50px;
+
+    position: relative;
+    width: 75%;
+    height: 100%;
+}
+
+.role-image {
+    margin-top: 12.5px;    
+    margin-left: 20px;  
+    width: 60%;            
+    height: auto;          
+    align-self: center;    
+    object-fit: contain;   
+}
+
+.holder{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+}

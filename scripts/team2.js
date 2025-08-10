@@ -28,7 +28,7 @@ function init()
 
             for(let i = 0; i < data.team2.length; i++)
             {
-                let img, playerName, charHolder, nameHolder, playerHolder;
+                let img, role, playerName, charHolder, nameHolder, playerHolder;
 
                 // Only add player if we need more
                 if (i >= existingPlayers){
@@ -46,6 +46,11 @@ function init()
                     img.id = `p${i+1}-char`;
                     img.src = `images/${data.game}/${data.team2[i].character}.png`;
 
+                    role = document.createElement("img");
+                    role.classList.add("role-image");
+                    role.id = `role${i+1}-image`;
+                    role.src = `images/${data.game}/${data.team2[i].role}.png`;
+
                     // Create player name paragraph
                     playerName = document.createElement("p");
                     playerName.classList.add("p-name");
@@ -57,6 +62,7 @@ function init()
                     nameHolder.appendChild(playerName);
                     playerHolder.appendChild(charHolder);
                     playerHolder.appendChild(nameHolder);
+                    playerHolder.appendChild(role);
                     teamHolder.appendChild(playerHolder);   
                 }
                 else{
