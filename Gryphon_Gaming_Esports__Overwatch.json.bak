@@ -701,19 +701,24 @@
             "settings": {
                 "playlist": [
                     {
-                        "value": "C:/Users/mania/Documents/Gryphon ESports/Stream Overlays/streamgryph_ggoverlay/sounds/12. Mere Notilde - Drastic Love.wav",
+                        "hidden": false,
                         "selected": false,
-                        "hidden": false
+                        "value": "C:/Users/mania/Documents/Gryphon ESports/Stream Overlays/streamgryph_ggoverlay/sounds/12. Mere Notilde - Drastic Love.wav"
                     },
                     {
-                        "value": "C:/Users/mania/Documents/Gryphon ESports/Stream Overlays/streamgryph_ggoverlay/sounds/18. TANUKI - Shimmer City.wav",
+                        "hidden": false,
                         "selected": false,
-                        "hidden": false
+                        "value": "C:/Users/mania/Documents/Gryphon ESports/Stream Overlays/streamgryph_ggoverlay/sounds/18. TANUKI - Shimmer City.wav"
                     },
                     {
-                        "value": "C:/Users/mania/Documents/Gryphon ESports/Stream Overlays/streamgryph_ggoverlay/sounds/20. ev.exi - no time.wav",
+                        "hidden": false,
                         "selected": false,
-                        "hidden": false
+                        "value": "C:/Users/mania/Documents/Gryphon ESports/Stream Overlays/streamgryph_ggoverlay/sounds/20. ev.exi - no time.wav"
+                    },
+                    {
+                        "hidden": false,
+                        "selected": false,
+                        "value": "C:/Users/mania/Documents/Gryphon ESports/Stream Overlays/streamgryph_ggoverlay/sounds/27. Synthion - Xylitol.wav"
                     }
                 ],
                 "shuffle": true

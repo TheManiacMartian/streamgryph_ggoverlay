@@ -3,9 +3,64 @@
     "team2Name": "",
     "score1": 0,
     "score2": 0,
-    "game": "Valorant",
+    "game": "Overwatch",
     "mapPick": [],
-    "banPick": [],
-    "team1": [],
-    "team2": []
+    "banPick": [
+        "Baptiste",
+        "Doomfist"
+    ],
+    "team1": [
+        {
+            "name": "Martian",
+            "character": "Doomfist",
+            "role": "Tank"
+        },
+        {
+            "name": "feassedf",
+            "character": "Cassidy",
+            "role": "Damage"
+        },
+        {
+            "name": "srefsef",
+            "character": "Hanzo",
+            "role": "Damage"
+        },
+        {
+            "name": "sefdeds",
+            "character": "Brigitte",
+            "role": "Support"
+        },
+        {
+            "name": "tyujgyhuj",
+            "character": "Illari",
+            "role": "Support"
+        }
+    ],
+    "team2": [
+        {
+            "name": "regfsrgf",
+            "character": "unknown",
+            "role": "unknown"
+        },
+        {
+            "name": "srgfsrf",
+            "character": "unknown",
+            "role": "unknown"
+        },
+        {
+            "name": "esfd",
+            "character": "unknown",
+            "role": "unknown"
+        },
+        {
+            "name": "sfersef",
+            "character": "unknown",
+            "role": "unknown"
+        },
+        {
+            "name": "6yhthjyrt",
+            "character": "unknown",
+            "role": "unknown"
+        }
+    ]
 }
