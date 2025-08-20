@@ -14,16 +14,6 @@
     top: 25px;
 }
 
-.p-name{
-    color:white;
-    font-family: Moderniz;
-    -webkit-animation: 1s ease-in-out infinite alternate;
-    -moz-animation: 1s ease-in-out infinite alternate;
-    animation: 1s ease-in-out infinite alternate;
-    font-size: 1vw;
-    text-align: center;
-}
-
 @-webkit-keyframes glow {
     from {
         text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e67b00, 0 0 40px #e69200, 0 0 50px #e69900, 0 0 60px #e67b00, 0 0 70px #e69900;
@@ -31,6 +21,27 @@
     to {
         text-shadow: 0 0 20px #fff, 0 0 30px #f0e9cf, 0 0 40px #fcecc9, 0 0 50px #ffd1e8, 0 0 60px #e99651, 0 0 70px #ffaf4d, 0 0 80px #ffa94d;
     }
+}
+
+@-webkit-keyframes role-glow {
+    from {
+        -webkit-filter: drop-shadow(0 0 15px #e69900);
+         filter: drop-shadow(0 0 15px #e69900);
+    }
+    to {
+        -webkit-filter: drop-shadow(0 0 15px #fff);
+         filter: drop-shadow(0 0 15px #fff);
+    }
+}
+
+.p-name{
+    color:white;
+    font-family: Moderniz;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+    font-size: 1vw;
+    text-align: center;
 }
 
 .char-holder{
@@ -69,6 +80,10 @@
     height: auto;          
     align-self: center;    
     object-fit: contain;   
+
+    -webkit-animation: role-glow 1s ease-in-out infinite alternate;
+    -moz-animation: role-glow 1s ease-in-out infinite alternate;
+    animation: role-glow 1s ease-in-out infinite alternate;
 }
 
 .player-holder{
